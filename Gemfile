@@ -1,21 +1,21 @@
 source "http://rubygems.org"
 
 ruby "2.1.2"
-gem "rails", "4.1.5"
+gem "rails", "4.0.8"
 
 gem "awesome_print"
-gem "coffee-rails"
+gem "coffee-rails", "4.0.1"
 gem "ember-rails"
 gem "ember-source"
 gem "jbuilder"
-gem "jquery-rails"
+gem "jquery-rails", "3.0.4"
 gem "local_time"
 gem "pg"
 gem "puma"
 gem "roadie"
 gem "roadie-rails"
-gem "sass-rails"
-gem "uglifier"
+gem "sass-rails", "4.0.3"
+gem "uglifier", "2.1.1"
 
 group :development, :test do
   gem "dotenv-rails"
